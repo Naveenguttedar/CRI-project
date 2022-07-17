@@ -1,7 +1,7 @@
 {
-  "name": "light-react-app",
+  "name": "CRI-fluid-system",
   "version": "1.0.2",
-  "description": "Lighter version of create-react-app",
+  "description": "",
   "main": "index.js",
   "homepage": "https://Naveenguttedar.github.io/CRI-project",
   "scripts": {
@@ -13,7 +13,6 @@
   "author": "Naveen-Guttedar",
   "license": "ISC",
   "dependencies": {
-    
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.4.0",
@@ -26,11 +25,14 @@
     "@babel/preset-react": "^7.16.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
     "gh-pages": "^4.0.0",
+    "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "node-sass": "^7.0.1",
     "sass-loader": "^13.0.0",
     "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   }

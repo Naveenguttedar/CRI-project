@@ -33,6 +33,19 @@ module.exports = {
         },
       },
       {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
+      {
+        test: /\.png$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "images/[path][name].[ext]",
+          },
+        },
+      },
+      {
         test: /\.(s(a|c)ss)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },

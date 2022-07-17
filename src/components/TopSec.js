@@ -1,14 +1,16 @@
 import React from "react";
-
+import logo from "../asserts/logo.png";
+import img1 from "../asserts/1.png";
+import img2 from "../asserts/2.png";
 function TopSec() {
   return (
     <div className="topSec">
       <div className="topSec_logo">
-        <img src="/asserts/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="topSec_container">
         <div className="topSec_container_trophy">
-          <img src="/asserts/1.png" alt="trophy" />
+          <img src={img1} alt="trophy" />
         </div>
         <div className="topSec_container_article">
           <h4>
@@ -28,12 +30,12 @@ function TopSec() {
               with IoT enabled control panel.
             </li>
           </ul>
-          <img src="/asserts/2.png" alt="" />
+          <img src={img2} alt="" />
           <p>
             Government of India has awarded the "National Energy Conservation
             Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I.
             Group received the award from Smt. Sumitra Mahajan, Speaker of Lok
-            Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
+            Sabha & Shri. Raj Kumar Singh, Honorable Minister of State .
           </p>
         </div>
       </div>

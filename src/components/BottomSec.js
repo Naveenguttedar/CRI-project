@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineFacebook, MdCall, MdOutlineLanguage } from "react-icons/md";
+import img3 from "../asserts/3.png";
 function BottomSec() {
   return (
     <>
@@ -7,10 +8,10 @@ function BottomSec() {
         <h4>
           INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
-          POWER FOR THE NATION.{" "}
+          POWER FOR THE NATION.
         </h4>
         <div className="bottomSec_products">
-          <img src="/asserts/3.png" alt="" />
+          <img src={img3} alt="" />
           <p className="bottomSec_products_dec">
             Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
             Solar Systems - Motors
